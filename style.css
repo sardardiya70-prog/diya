@@ -19,6 +19,7 @@ header{
      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
      position: sticky;
      top: 0;
+     width: auto;
 }
 
 .navbar{
@@ -239,7 +240,7 @@ footer{
 
 /* Responsive */
 @media (max-width: 768px) {
-  .navbar{
+ .navbar{
    flex-direction: column;
   }
 
@@ -266,6 +267,7 @@ footer{
    .contact{
     width: fit-content;
    }
-   
-   
+   .work-card{
+    grid-template-columns: 1fr;
+   }
 }
