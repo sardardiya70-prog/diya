@@ -55,7 +55,7 @@ header{
 
 /* Home */
 .home{
-    width: 1500px;
+    width: 100vw;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 100px;
@@ -66,6 +66,7 @@ header{
 }
 
 .home-content h1{
+    width: auto;
     font-size: 70px;
     margin-bottom: 15px;
 }
@@ -100,7 +101,7 @@ header{
 }
 
 .home-image img{
-    width: 500px;
+    width: 400px;
     height: 500px;
     object-fit: cover;
 }
@@ -255,7 +256,7 @@ footer{
   }
  
   .about{
-    width: fit-content;
+    width: auto;
   }
 
   .project{
@@ -266,7 +267,7 @@ footer{
    }
 
    .contact{
-    width: fit-content;
+    width: auto;
    }
    .work-card{
     grid-template-columns: 1fr;
