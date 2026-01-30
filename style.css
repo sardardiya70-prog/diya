@@ -240,11 +240,12 @@ footer{
 
 /* Responsive */
 @media (max-width: 768px) {
- .navbar{
+ /* .navbar{
    flex-direction: column;
   }
 
   .home {
+    width: auto;
     flex-direction: column;
     text-align: center;
   }
@@ -269,5 +270,9 @@ footer{
    }
    .work-card{
     grid-template-columns: 1fr;
+   } */
+
+   .main{
+    width: auto;
    }
 }
