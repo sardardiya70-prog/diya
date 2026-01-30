@@ -55,7 +55,7 @@ header{
 
 /* Home */
 .home{
-    width: 100vw;
+    width: 1500px;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 100px;
@@ -240,7 +240,7 @@ footer{
 
 /* Responsive */
 @media (max-width: 768px) {
- /* .navbar{
+ .navbar{
    flex-direction: column;
   }
 
@@ -253,7 +253,7 @@ footer{
   .home-image {
     margin-top: 30px;
   }
-
+ 
   .about{
     width: fit-content;
   }
@@ -270,9 +270,7 @@ footer{
    }
    .work-card{
     grid-template-columns: 1fr;
-   } */
+   } 
 
-   .main{
-    width: auto;
-   }
+
 }
