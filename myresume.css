@@ -102,8 +102,8 @@
     padding-left: 18px;
 }
 /* Responsive */
-@media (max-width: 768px){
+@media (max-width: 480px){
     .resume{
-        width: auto;
+        grid-template-columns: 1fr;
     }
 }
