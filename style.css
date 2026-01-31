@@ -224,13 +224,11 @@ footer {
     padding: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 
   body {
     overflow-x: hidden;
   }
-
-  /* Navbar */
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -240,10 +238,12 @@ footer {
     display: block;
     padding: 10px 0;
   }
+  .btn{
+    display: flex;
+  }
 
   .hero,
   .about,
-  .work,
   .contact {
     width: 100%;
     padding: 10px;
@@ -260,6 +260,10 @@ footer {
     flex-direction: column;
     gap: 15px;
   }
+  .work-grid{
+    grid-template-columns: 1fr;
+  }
+
 }
 
 
