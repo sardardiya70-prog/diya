@@ -10,6 +10,11 @@ body {
   color: black;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar{
   display: none;
 }
@@ -219,31 +224,43 @@ footer {
     padding: 20px;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
-  .navbar{
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Navbar */
+  .navbar {
     flex-direction: column;
+    align-items: center;
   }
-  .hero {
+
+  .navbar a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .hero,
+  .about,
+  .work,
+  .contact {
+    width: 100%;
+    padding: 10px;
     flex-direction: column;
-    text-align: center;
+    flex-wrap: wrap;
   }
-  .hero-buttons{
+
+  .about{
+    margin-left: 0;
+  }
+
+.project-grid {
+    display: flex;
     flex-direction: column;
-  }
-  .hero-img img{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-  }
-  .about {
-    flex-direction: column;
-    text-align: center;
-  }
-  .work-grid{
-    grid-template-columns: 1fr;
-  }
-  .project-grid {
-    grid-template-columns: 1fr;
+    gap: 15px;
   }
 }
+
+
+
