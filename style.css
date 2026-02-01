@@ -128,6 +128,9 @@ html, body {
 .about p,.work p,.projects p,.contact p{
   font-size:25px;
 }
+.about p{
+  gap: 20px;
+}
 .about{
   width: 70%;
   display: flex;
@@ -135,7 +138,7 @@ html, body {
   justify-content: center;
   align-items: center;
   padding-top: 0;
-  margin-left: 200px;
+  margin-left: 232px;
 }
 
 
