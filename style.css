@@ -162,6 +162,7 @@ html, body {
     margin: auto;
     margin-top: 150px;
     margin-bottom: 100px;
+    display: flex;
 }
 
 .project h2{
@@ -188,8 +189,8 @@ html, body {
 }
 
 .project-grid img{
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   height: 250px;
   width: 250px;
   object-fit: cover;
