@@ -104,6 +104,6 @@
 /* Responsive */
 @media (max-width: 480px){
     .resume{
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
 }
