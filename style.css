@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: ivory;
+  background: linear-gradient(227deg,rgba(250, 244, 200, 1) 0%, rgba(216, 175, 250, 1) 43%);
   color: black;
 }
 
@@ -26,8 +26,8 @@ html, body {
   display: flex;
   justify-content: space-between;
   padding: 18px 50px;
-  background: ivory;
-  border-bottom: 1px solid black;
+   background: linear-gradient(227deg,rgba(250, 244, 200, 1) 0%, rgba(216, 175, 250, 1) 43%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
 }
 
 .navbar a {
@@ -151,7 +151,7 @@ html, body {
 }
 
 .work-card {
-  background: white;
+  background: rgb(231, 231, 206);
   padding: 30px;
   border-radius: 14px;
 }
@@ -174,9 +174,14 @@ html, body {
 .project-grid{
     display: flex;
     justify-content: center;
-    gap: 50px;
-   
+    gap: 50px;  
 }
+.tag{
+  background-color:rgb(231, 231, 206) ; 
+  border-radius: 15px;
+  color: white;
+}
+
 .project-grid img{
   height: 250px;
   width: 250px;
@@ -218,7 +223,7 @@ html, body {
 .social a {
   margin: 0 10px;
   font-size: 22px;
-  color: rgb(210, 167, 244);
+  color: rgb(194, 121, 249);
 }
 
 /* FOOTER */
