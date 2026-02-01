@@ -183,11 +183,13 @@ html, body {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-grid img{
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   height: 250px;
   width: 250px;
   object-fit: cover;
