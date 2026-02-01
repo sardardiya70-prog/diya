@@ -181,9 +181,13 @@ html, body {
   border-radius: 15px;
   /* color: white; */
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-grid img{
+  justify-content: center;
+  align-items: center;
   height: 250px;
   width: 250px;
   object-fit: cover;
