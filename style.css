@@ -156,6 +156,14 @@ html, body {
   border-radius: 14px;
 }
 
+.work-card h3{
+  font-size: 25px;
+}
+
+.work-card p{
+ font-size: 20px;
+}
+
 /* PROJECTS */
 .project{
     width: 100vw;
@@ -277,6 +285,9 @@ footer {
 
   .about{
     margin-left: 0;
+  }
+  .hero p,.about p,.work p,.contact p{
+    font-size: medium;
   }
 
 .project-grid {
